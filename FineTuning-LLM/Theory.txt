@@ -1,4 +1,4 @@
-Fine Tuning llm models:
+Fine Tuning llm models: prefixembed , prefixlayer , adapter
 
 1. Quantization: conversion from higher memory format to a lower memory format. (32bits to int 8 -> Inferencing).
 - A great analogy for understanding quantization is image compression. 
@@ -17,6 +17,11 @@ How to perform quantization:
  Pretrained model -> quantization(apply Pretrained model weights) -> quantized model -> usecases
  - loss of data (accuracy reduces)
 
-2. Quantization awaze training(QAT):
+2. Quantization aware training(QAT):
     Pretrained model -> quantization(apply Pretrained model weights) -> fine tuning (new training data) -> quantized model -> usecases
-    
+
+-Full parameter fine tuning the challenges are : update all models weights -> hardware constraints
+hence these techniques are used
+1.LoRA : Low rank adaptation model - instead of training all the parameters it will track all changes.
+-matrix decomposition , rank (Higher rank when complexity increases)
+QLoRA : quantized Low rank adaptation model 
