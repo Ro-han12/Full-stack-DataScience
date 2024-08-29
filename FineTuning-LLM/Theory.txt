@@ -1,0 +1,22 @@
+Fine Tuning llm models:
+
+1. Quantization: conversion from higher memory format to a lower memory format. (32bits to int 8 -> Inferencing).
+- A great analogy for understanding quantization is image compression. 
+Compressing an image involves reducing its size by removing some of the information, 
+i.e., bits of data, from it. Now, while decreasing the size of an image typically reduces its quality (to acceptable levels), it also means more images can be saved on a given device while requiring less time and bandwidth to transfer or display to a user.
+
+How to perform quantization:
+1.Symmetric Quantization : (Batch Normalization-weights are zero centered)
+2.Asymmetric Quantization 
+
+- Symmetric uint8 quantization: min-max scalar + round function((0-255 range))
+- Asymmetric uint8 Quantization : min-max scalar + round function((0-255 range)) zero point value is used to achieve values in range.
+
+-Types:
+1.post training quantization (PTQ): 
+ Pretrained model -> quantization(apply Pretrained model weights) -> quantized model -> usecases
+ - loss of data (accuracy reduces)
+
+2. Quantization awaze training(QAT):
+    Pretrained model -> quantization(apply Pretrained model weights) -> fine tuning (new training data) -> quantized model -> usecases
+    
