@@ -1,1 +1,1 @@
-https://github.com/sidpalas/devops-directive-docker-course/blob/main
+https://github.com/sidpalas/devops-directive-docker-course
