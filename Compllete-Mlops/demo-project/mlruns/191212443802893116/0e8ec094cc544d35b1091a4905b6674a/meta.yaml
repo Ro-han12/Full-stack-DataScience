@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/191212443802893116/0e8ec094cc544d35b1091a4905b6674a/artifacts
+end_time: 1738069422422
+entry_point_name: ''
+experiment_id: '191212443802893116'
+lifecycle_stage: active
+run_id: 0e8ec094cc544d35b1091a4905b6674a
+run_name: colorful-newt-778
+run_uuid: 0e8ec094cc544d35b1091a4905b6674a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738069417372
+status: 3
+tags: []
+user_id: rohansridhar

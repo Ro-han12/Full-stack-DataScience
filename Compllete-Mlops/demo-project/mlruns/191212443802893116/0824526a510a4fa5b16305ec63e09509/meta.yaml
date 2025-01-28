@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/191212443802893116/0824526a510a4fa5b16305ec63e09509/artifacts
+end_time: 1738081148791
+entry_point_name: ''
+experiment_id: '191212443802893116'
+lifecycle_stage: active
+run_id: 0824526a510a4fa5b16305ec63e09509
+run_name: kindly-cub-691
+run_uuid: 0824526a510a4fa5b16305ec63e09509
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738081148691
+status: 4
+tags: []
+user_id: rohansridhar

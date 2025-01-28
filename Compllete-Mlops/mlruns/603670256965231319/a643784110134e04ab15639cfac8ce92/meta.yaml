@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/603670256965231319/a643784110134e04ab15639cfac8ce92/artifacts
+end_time: 1738060820891
+entry_point_name: ''
+experiment_id: '603670256965231319'
+lifecycle_stage: active
+run_id: a643784110134e04ab15639cfac8ce92
+run_name: efficient-asp-882
+run_uuid: a643784110134e04ab15639cfac8ce92
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738060820865
+status: 3
+tags: []
+user_id: rohansridhar

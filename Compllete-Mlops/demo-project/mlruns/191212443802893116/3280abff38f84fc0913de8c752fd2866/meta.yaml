@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/191212443802893116/3280abff38f84fc0913de8c752fd2866/artifacts
+end_time: 1738081188161
+entry_point_name: ''
+experiment_id: '191212443802893116'
+lifecycle_stage: active
+run_id: 3280abff38f84fc0913de8c752fd2866
+run_name: unruly-yak-51
+run_uuid: 3280abff38f84fc0913de8c752fd2866
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738081183929
+status: 3
+tags: []
+user_id: rohansridhar

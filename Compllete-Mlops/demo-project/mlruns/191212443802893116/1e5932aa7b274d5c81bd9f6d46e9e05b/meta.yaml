@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/191212443802893116/1e5932aa7b274d5c81bd9f6d46e9e05b/artifacts
+end_time: 1738081130193
+entry_point_name: ''
+experiment_id: '191212443802893116'
+lifecycle_stage: active
+run_id: 1e5932aa7b274d5c81bd9f6d46e9e05b
+run_name: nimble-turtle-839
+run_uuid: 1e5932aa7b274d5c81bd9f6d46e9e05b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738081130080
+status: 4
+tags: []
+user_id: rohansridhar
